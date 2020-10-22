@@ -1,0 +1,66 @@
+body{
+    background-color:hsl(257, 40%, 49%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn{
+    background: white;
+    color: hsl(257, 40%, 49%);
+    padding: 10px 40px;
+    border-radius: 35px;
+    
+
+}
+
+.btn:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.HeaderSec{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.HeaderText{
+    padding-top: 80px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url(images/bg-mobile.svg);
+    }
+
+    
+    h1{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .btn{
+        margin: 0 auto;
+        display: block;
+  }
+
+    .sociali{
+      padding-top: 20px;
+      margin: 0 auto;
+      padding-left: 175px;
+
+  }
+
+
+@media (max-width: 1440px) {
+    body{
+        background-image: url(images/bg-desktop.svg);
+    }
+}
